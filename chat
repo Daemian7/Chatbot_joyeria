@@ -1,0 +1,99 @@
+//collapsible
+var coll = document.getElementsByClassName("collapsible");
+
+for (let i = 0; i< coll.length; i++){
+    coll[i].addEventListener("click", function(){
+        this.classList.toggle("active");
+
+        var content = this.nextElementSibling;
+
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+        }else{
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+
+    });
+}
+
+function getTime(){
+    let today = new Date();
+    hours = today.getHours();
+    minutes = today.getMinutes();
+
+    if(hours < 10){
+        hours = "0" + hours; 
+    }
+
+    if (minutes<10) {
+        minutes ="0"+minutes;
+    }
+
+let time = hours + ":" + minutes;
+return time;
+}
+
+function firstbotmsg(){
+let firstmsg = "En que puedo ayudarte?"
+document.getElementById("botstartermessage").innerHTML='<p class="botext"><span>' + firstmsg + '</span></p>';
+
+let time = getTime();
+
+$("#chat-timestamp").append(time);
+document.getElementById("userinput").scrollIntoView(false);
+}
+
+
+firstbotmsg();
+
+//respuestas
+function getHardResponse(usertext){
+    let botresponse = getbotresponse(usertext);
+    let bothtml = '<p class="botext"><span>' + botresponse + '</span></p>';
+    $("chatbox").append(bothtml);
+
+document.getElementById("chat-bar-bottom").scrollIntoView(true);
+}
+
+function getresponse(){
+    let usertext = $("textinput").val();
+
+    if (usertext ==""){
+        usertext = "xd"
+    }
+
+    let userhtml = '<p class="botext"><span>' + usertext + '</span></p>';
+
+    $("#textinput").val("");
+    $("#chatbox").append(userhtml);
+    document.getElementById("chat-bar-bottom").scrollIntoView(true);
+
+    setTimeout(()=>{
+        getHardResponse(usertext);
+    },1000)
+}
+
+
+function btnsendtxt(sampletxt){
+    let userhtml = '<p class="botext"><span>' + sampletxt + '</span></p>';
+    $("#textinput").val("");
+    $("#chatbox").append(userhtml);
+    document.getElementById("chat-bar-bottom").scrollIntoView(true);
+
+}
+
+function sendbtn(){
+    getresponse();
+}
+
+function heartbtn(){
+    btnsendtxt("Gracias!")
+}
+
+$("#textinput").keypress(function(e){
+    if(e.which ==13){
+        getresponse();
+    }
+});
+    
+

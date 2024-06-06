@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyeria Sanchez</title>
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/design.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body data-gr-c-s-loaded="true">
+
+    <nav class="menu">
+       <h1>Joyeria Sanchez</h1>
+        <a href="#">Nosotros</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contancto</a>
+    </nav>
+
+    <main class="container">
+        <div class="who">
+            <div class="row nosotros justify-content-center" >
+                <div class="col-12 text-center">
+                    <h2 class="subtitulo"><span>¿Quienes somos?</span></h2>
+                    <h3 class="titulo">Joyeria Sanchez</h3>
+                    <p>Accesorios de plata y Oro Italiano</p>
+                    <a href="#" class="enlace">Descubre nuestros nuevos diseños</a>
+                </div>
+            </div>
+        </div>
+       
+
+        <div class="row productos">
+            <article class="col-12 text-center">
+                <h2 class="subtitulo"><span>Nos ponemos a la orden con</span></h2>
+                <p class="titulo">Accesorios de plata y oro, anillos de graduacion</p>
+            </article>
+
+           
+                    <article class="col-6 col-lg-3 py-1">
+                        <figure class="producto">
+                            <img src="./img/img-01.jpg" alt="" class="imgp">
+                        </figure>
+ 
+
+                        <div class="col-12">
+                            <div class="row justify-content-center">
+                    <button class="d-block btn-productos">Ver todos los productos</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="container">
+        <div class="row acerca-de justify-content-around">
+            <article class="col-10 col-sm-5">
+                <figure class="text-center">
+                    <img src="./img/icon-team.png" alt="">
+                    <figcaption>
+                        <p>
+                            <strong class="mb-2">Un equipo de expertos</strong>
+                            <div class="w-100"></div>
+                        </p>
+                    </figcaption>
+                </figure>
+            </article>
+
+            <article class="col-10 col-sm-5">
+                <figure class="text-center">
+                    <img src="./img/icon-services.png" alt="">
+                    <figcaption>
+                        <p>
+                            <strong class="mb-2">Una historia de servicio</strong>
+                            <div class="w-100"></div>
+                            10 años de experiencia</p>
+                    </figcaption>
+                </figure>
+            </article>
+        </div>
+    </div>
+
+    <div class="container-fluid px-0 galeria">
+        <div class="row justify-content-center mx-0 px-0">
+            <div class="col-4 px-0 mx-0">
+                <img src="./img/arete.jpg" alt="">
+            </div>
+            <div class="col-4 px-0 mx-0">
+                <img src="./img/pulseras.jpg" alt="">
+            </div>
+            <div class="col-4 px-0 mx-0">
+                <img src="./img/piece-03.jpg" alt="">
+            </div>
+        </div> 
+    </div>
+
+    <div class="container-fluid">
+		<span>
+            <section class="contacto row justify-content-center">
+                <div class="col-12 col-md-9 text-center">
+                    <h2 class="subtitulo"><span>Contactanos</span></h2>
+                </div>
+    
+                <div class="w-100 mb-4"></div>
+                <div>
+                    <p class="border-bottom border-top">
+                        <img src="img/icons/icon-cellphone.png" alt="">Tel: 5556-5166
+                    </p>
+                </div>
+            </section>
+        </span>
+        
+    </div>
+	
+   
+     <!-- chat bar -->
+     <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chatea con nosotros
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+    
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- container Mensaje -->
+                <div class="outer-container">
+                    <div class="chat-containter">
+                        <!-- mensajes -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botstartermessage" class="botext"><span>Cargando...</span></p>
+                        </div>
+                        <!-- box user -->
+                        <div class="chat-bar-input-block">
+                            <div id="userinput">
+                                <input id="textinput" class="input-box"  type="text" name="msg"
+                                placeholder="Presione 'Enter' para enviar">
+                                <p></p>
+                            </div>
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                onclick="heartbtn()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                onclick="sendbtn()"></i>
+                            </div>
+                        </div>
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    </div>
+    </section>
+    
+    <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vedd3670a3b1c4e178fdfb0cc912d969e1713874337387" integrity="sha512-EzCudv2gYygrCcVhu65FkAxclf3mYM6BCwiGUm6BEuLzSb5ulVhgokzCZED7yMIkzYVg65mxfIBNdNra5ZFNyQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;87f2d5742c71b0b3&quot;,&quot;r&quot;:1,&quot;version&quot;:&quot;2024.4.1&quot;,&quot;token&quot;:&quot;7d0c240842af47e7a8d7e8b1066b5e3a&quot;}" crossorigin="anonymous"></script>
+    
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="static/scripts/responses.js"></script>
+<script src="static/scripts/chat.js"></script>
+<script src="static/scripts/main.js"></script>
+</html>

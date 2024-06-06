@@ -1,0 +1,59 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="static/css/index.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+</head>
+<body>
+    <!-- chat bar -->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chatea con nosotros
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- container Mensaje -->
+                <div class="outer-container">
+                    <div class="chat-containter">
+                        <!-- mensajes -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botstartermessage" class="botext"><span>Cargando...</span></p>
+                        </div>
+                        <!-- box user -->
+                        <div class="chat-bar-input-block">
+                            <div id="userinput">
+                                <input id="textinput" class="input-box"  type="text" name="msg"
+                                placeholder="Presione 'Enter' para enviar">
+                                <p></p>
+                            </div>
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                onclick="heartbtn()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                onclick="sendbtn()"></i>
+                            </div>
+                        </div>
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="static/scripts/responses.js"></script>
+<script src="static/scripts/chat.js"></script>
+</html>

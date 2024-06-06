@@ -1,0 +1,207 @@
+<!--
+// v0 by Vercel.
+// https://v0.dev/t/ixh6m2uicvK
+-->
+
+<section class="w-full py-12 md:py-24 lg:py-32">
+    <div class="container grid items-center justify-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
+      <div class="order-2 lg:order-1">
+        <img
+          src="/placeholder.svg"
+          width="800"
+          height="600"
+          alt="Jewelry"
+          class="mx-auto aspect-[4/3] w-full overflow-hidden rounded-xl object-cover object-center sm:w-[80%] lg:w-full"
+        />
+      </div>
+      <div class="order-1 lg:order-2 space-y-4">
+        <h1 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
+          Discover Our Exquisite Jewelry Collection
+        </h1>
+        <p class="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
+          Elevate your style with our meticulously crafted jewelry pieces, designed to captivate and inspire.
+        </p>
+        <div class="flex flex-col gap-2 min-[400px]:flex-row">
+          <a
+            class="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+            href="#"
+          >
+            Shop Now
+          </a>
+          <a
+            class="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+            href="#"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+    <div class="container grid grid-cols-1 gap-6 px-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 md:px-6">
+      <div class="group overflow-hidden rounded-lg">
+        <a class="block" href="#">
+          <img
+            src="/placeholder.svg"
+            width="400"
+            height="400"
+            alt="Jewelry"
+            class="aspect-square w-full object-cover transition-all duration-300 group-hover:scale-105"
+          />
+          <div class="p-4 dark:bg-gray-950">
+            <h3 class="text-lg font-semibold">Elegant Necklace</h3>
+            <p class="text-gray-500 dark:text-gray-400">$99.99</p>
+          </div>
+        </a>
+      </div>
+      <div class="group overflow-hidden rounded-lg">
+        <a class="block" href="#">
+          <img
+            src="/placeholder.svg"
+            width="400"
+            height="400"
+            alt="Jewelry"
+            class="aspect-square w-full object-cover transition-all duration-300 group-hover:scale-105"
+          />
+          <div class="p-4 dark:bg-gray-950">
+            <h3 class="text-lg font-semibold">Sparkling Earrings</h3>
+            <p class="text-gray-500 dark:text-gray-400">$79.99</p>
+          </div>
+        </a>
+      </div>
+      <div class="group overflow-hidden rounded-lg">
+        <a class="block" href="#">
+          <img
+            src="/placeholder.svg"
+            width="400"
+            height="400"
+            alt="Jewelry"
+            class="aspect-square w-full object-cover transition-all duration-300 group-hover:scale-105"
+          />
+          <div class="p-4 dark:bg-gray-950">
+            <h3 class="text-lg font-semibold">Timeless Ring</h3>
+            <p class="text-gray-500 dark:text-gray-400">$149.99</p>
+          </div>
+        </a>
+      </div>
+      <div class="group overflow-hidden rounded-lg">
+        <a class="block" href="#">
+          <img
+            src="/placeholder.svg"
+            width="400"
+            height="400"
+            alt="Jewelry"
+            class="aspect-square w-full object-cover transition-all duration-300 group-hover:scale-105"
+          />
+          <div class="p-4 dark:bg-gray-950">
+            <h3 class="text-lg font-semibold">Delicate Bracelet</h3>
+            <p class="text-gray-500 dark:text-gray-400">$59.99</p>
+          </div>
+        </a>
+      </div>
+      <div class="group overflow-hidden rounded-lg">
+        <a class="block" href="#">
+          <img
+            src="/placeholder.svg"
+            width="400"
+            height="400"
+            alt="Jewelry"
+            class="aspect-square w-full object-cover transition-all duration-300 group-hover:scale-105"
+          />
+          <div class="p-4 dark:bg-gray-950">
+            <h3 class="text-lg font-semibold">Radiant Pendant</h3>
+            <p class="text-gray-500 dark:text-gray-400">$89.99</p>
+          </div>
+        </a>
+      </div>
+      <div class="group overflow-hidden rounded-lg">
+        <a class="block" href="#">
+          <img
+            src="/placeholder.svg"
+            width="400"
+            height="400"
+            alt="Jewelry"
+            class="aspect-square w-full object-cover transition-all duration-300 group-hover:scale-105"
+          />
+          <div class="p-4 dark:bg-gray-950">
+            <h3 class="text-lg font-semibold">Elegant Cufflinks</h3>
+            <p class="text-gray-500 dark:text-gray-400">$129.99</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="w-full py-12 md:py-24 lg:py-32">
+    <div class="container grid items-center justify-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
+      <div class="order-2 lg:order-1">
+        <img
+          src="/placeholder.svg"
+          width="800"
+          height="600"
+          alt="Jewelry Collections"
+          class="mx-auto aspect-[4/3] w-full overflow-hidden rounded-xl object-cover object-center sm:w-[80%] lg:w-full"
+        />
+      </div>
+      <div class="order-1 lg:order-2 space-y-4">
+        <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Explore Our Curated Collections</h2>
+        <p class="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
+          Discover our expertly curated collections, each showcasing the finest jewelry pieces that will elevate your
+          style.
+        </p>
+        <div class="flex flex-col gap-2 min-[400px]:flex-row">
+          <a
+            class="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+            href="#"
+          >
+            Explore Collections
+          </a>
+          <a
+            class="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300"
+            href="#"
+          >
+            View All
+          </a>
+             <!-- chat bar -->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Chatea con nosotros
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- container Mensaje -->
+                <div class="outer-container">
+                    <div class="chat-containter">
+                        <!-- mensajes -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botstartermessage" class="botext"><span>Cargando...</span></p>
+                        </div>
+                        <!-- box user -->
+                        <div class="chat-bar-input-block">
+                            <div id="userinput">
+                                <input id="textinput" class="input-box"  type="text" name="msg"
+                                placeholder="Presione 'Enter' para enviar">
+                                <p></p>
+                            </div>
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                onclick="heartbtn()"></i>
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                onclick="sendbtn()"></i>
+                            </div>
+                        </div>
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+        </div>
+      </div>
+    </div>
+  </section>
